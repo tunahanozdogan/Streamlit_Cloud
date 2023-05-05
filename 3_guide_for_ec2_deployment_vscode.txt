@@ -115,7 +115,7 @@ Then click "Save Rule"
     python3 -m venv env_name
 
 11.to activate venv(maybe pip required -----python -m pip3 install -U pip-------)
-source env_name/bin/activate
+   source env_name/bin/activate
 
 
 12. install required packages inside this folder s(foldername) in ec2
@@ -171,5 +171,22 @@ Then it is ok. Even if you close the gitbash or what ever you are using for linu
 
 19. to kill the session
    tmux kill-session -t st_instance
+
+
+IF YOU WANT TO WORK IN VS CODE USING JUPYTER NOTEBOOK:
+1. After connecting to VS Code, you can use jupyter notebook in VS Code. But before that you should install the following extensions:
+
+   a. python extensions in SSH
+   b. Jupyter,
+   c. Jupyter Keymap,
+   d. Jupyter PowerToys,
+   e. Jupyter Notebook Renderers,
+   f. VS Code Jupyter Notebook Previewer
+
+2. Open up a jupyter notebook and chose kernel(it is a small icon in the top right hand corner of the kernal)
+3. Than in the top middle it offers you to install other extensions click whatever extension it recommend and move to the extensions menu to see if VScode requires a restarts to be able to use any of these.
+4. Then you can start to use jupyter notebook in VS Code opened in EC2.
+
+
 
 

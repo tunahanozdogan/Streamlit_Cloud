@@ -4,7 +4,7 @@
    -app.py file (streamlit commands)
    -requirements.txt and other files
 
-2. open your aws console
+2. Open your aws console
 
 3. Open EC2 Dashboard and Launch Instance (t2.micro )
    
@@ -134,7 +134,7 @@ Then click "Save Rule"
    You can now view your Streamlit app in your browser.
 
       Network URL: http://172.31.28.28:8501
-      External URL: http://18.188.133.122:8501
+      External URL: http://18.18h8.133.122:8501
 
 
    (When you close the git bash no matter the instance is working the app will stop. 
